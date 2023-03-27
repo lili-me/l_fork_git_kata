@@ -6,6 +6,8 @@ from django.db import models
 from django.contrib.auth.models import AbstractUser
 
 
+
+
 def random_string():
     return ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(12))
 
